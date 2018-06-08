@@ -1,0 +1,45 @@
+.party-image {
+  max-width: 100px;
+  max-height: 80px;
+}
+
+.party-radio-container input[type="radio"] {
+  margin-top: 3px;
+}
+
+.cta-selected-party {
+  font-family: "Space Mono", monospace;
+  color: #000;
+  font-size: 18px;
+}
+
+.btn-vote {
+  background-color: #353535;
+  border: 1px solid #EDEDED;
+  line-height: 35px;
+  border-radius: 0;
+}
+
+.btn-vote:hover,
+.btn-vote:active {
+  background-color: #767676 !important;
+  border: 1px solid #EDEDED !important;
+}
+
+.selected-party {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 115px -13px rgba(0,0,0,0.2);
+  font-family: "Space Mono", monospace;
+}
+
+.selected-party-text {
+  font-size: 13px !important;
+  line-height: 18px !important;
+}
+
+.selected-party-text-bold {
+  font-weight: 700;
+}

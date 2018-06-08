@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="61.2346759%" y1="43.69%" x2="74.7064382%" y2="80.24%" id="linearGradient-1">
+            <stop stop-color="#EFF7FC" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Volitve-2" transform="translate(-735.000000, -768.000000)">
+            <g id="Group-8" transform="translate(691.000000, 763.000000)">
+                <g id="Group-3" transform="translate(42.500000, 3.000000)">
+                    <polygon id="Polygon-Copy-5" fill="#000000" transform="translate(6.499090, 7.000000) rotate(45.000000) translate(-6.499090, -7.000000) " points="6.49909026 0 13.5407569 7 6.49909026 14 -0.542576405 7"></polygon>
+                    <g id="Telegram_logo" transform="translate(2.708333, 4.307692)" fill-rule="nonzero">
+                        <path d="M2.41287879,5.38461538 C2.22144394,5.38461538 2.25397348,5.30973466 2.18794924,5.1209081 L1.625,3.20159652 L5.95833333,0.538461538" id="Shape" fill="#C8DAEA"></path>
+                        <path d="M2.16666667,5.38461538 C2.31439394,5.38461538 2.37966477,5.31217046 2.46212121,5.22620811 L3.25,4.40470796 L2.2672197,3.76923077" id="Shape" fill="#A9C9DD"></path>
+                        <path d="M2.54641008,3.90885278 L4.95527982,5.84239689 C5.23016294,6.00717756 5.42855598,5.92186221 5.49702645,5.56512876 L6.47755997,0.545079157 C6.57794947,0.107803468 6.32413649,-0.0905242899 6.06116821,0.0391831892 L0.303491349,2.45122927 C-0.0895240169,2.62249315 -0.0872327016,2.8607105 0.231852878,2.96685546 L1.70940257,3.46788632 L5.13008725,1.12326994 C5.29157019,1.01688145 5.43977844,1.07407819 5.3181345,1.1913707" id="Shape" fill="url(#linearGradient-1)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

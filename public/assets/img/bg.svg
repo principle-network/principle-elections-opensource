@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="800px" viewBox="0 0 1440 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="619.538791 24.2827088 870.478503 251.96029 501.166227 886.601098 360.672021 626.383654"></polygon>
+        <filter x="-7.3%" y="-7.5%" width="129.0%" height="115.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="44" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0184556159 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="195.682592 0.708888863 403.345061 114.977397 391.365184 340.932192 195.682592 453.909589 1.53341218e-13 340.932192 2.84217094e-14 114.977397"></polygon>
+        <filter x="-99.3%" y="-43.6%" width="241.6%" height="226.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="-115" dy="88" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="76" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0405910326 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-6" points="1068.28281 262.481872 1433.08251 568.585167 1091.15677 976.076396 889.963151 725.660343"></polygon>
+        <filter x="-6.8%" y="-9.1%" width="127.2%" height="118.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="44" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0184556159 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-8" points="459.521625 587.416067 710.461337 815.093648 341.149061 1449.73446 200.654856 1189.51701"></polygon>
+        <filter x="-7.3%" y="-7.5%" width="129.0%" height="115.5%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="44" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0184556159 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Volitve-2">
+            <g id="Group-13" transform="translate(-164.000000, -407.000000)">
+                <g id="Polygon-2-Copy-3" transform="translate(615.575262, 455.441904) rotate(186.000000) translate(-615.575262, -455.441904) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-10" transform="translate(1326.000000, 392.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Polygon-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+                <g id="Polygon-2-Copy" transform="translate(1161.522831, 619.279134) rotate(88.000000) translate(-1161.522831, -619.279134) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <g id="Polygon-2-Copy-2" transform="translate(455.558096, 1018.575262) rotate(84.000000) translate(-455.558096, -1018.575262) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

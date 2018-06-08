@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sl-SI">
+<head>
+    <meta charset="UTF-8">
+    <title>Blockchain e-volitve 2018</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+          crossorigin="anonymous">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118978906-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118978906-2');
+    </script>
+
+    <meta name="description" content="Volitve 2018 na blockchainu. Registriraj svoj glas in sodeluj na prvih slovenskih volitvah na blockchainu.">
+    <meta name="Rating" content="General">
+    <meta property="og:locale" content="sl-SI">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Principle">
+    <meta property="og:title" content="Blockchain e-volitve 2018 | Principle">
+    <meta property="og:description" content="Volitve 2018 na blockchainu. Registriraj svoj glas in sodeluj na prvih slovenskih volitvah na blockchainu.">
+    <meta property="og:url" content="https://volitve.principle.network/">
+    <meta property="og:image" content="https://volitve.principle.network/assets/img/volitve_ad.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Volitve 2018 na blockchainu. Registriraj svoj glas in sodeluj na prvih slovenskih volitvah na blockchainu.">
+    <meta name="twitter:title" content="Blockchain e-volitve 2018 | Principle">
+    <meta name="twitter:image" content="https://volitve.principle.network/assets/img/volitve_ad.jpg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+</head>
+<body>
+<div id="app-2" class="elections-container front">
+
+    <div class="header">
+        <div class="logo-wrapper">
+            <a href="https://principle.network">
+                <div class="logo">
+                    <img src="/assets/svg/logo.svg">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row align-items-md-center">
+            <div class="col-md-6">
+                <div class="cta-input">
+                    <h1 class="intro-title">
+                        Pridruži se volitvam na blockchainu
+                    </h1>
+                    <form  class="form" id="contact-form" @submit="submitEmail">
+                        <div class="pci-input-wrapper" v-if="!submitSuccess">
+                        <span class="email-icon">
+                            <img src="/assets/svg/email.svg">
+                        </span>
+                            <input type="email" class="pci-input" v-model="email" placeholder="Tvoj email" required>
+                            <div class="input-shadow">
+                                <button class="confirm-input" type="submit">
+                                    <img src="/assets/svg/send.svg">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div v-cloak>
+                            <p v-if="submitError" class="notification" style="position: absolute;">{{submitError}}</p>
+                            <p v-if="submitSuccess" class="notification">Hvala! Preveri e-poštni predal.</p>
+                        </div>
+
+                        <div class="terms-input-text form-check" v-if="!submitSuccess">
+                            <input type="checkbox" id="subscribeNews" name="subscribe" class="form-check-input" required>
+                            <label for="subscribeNews">Soglašam, da se z registracijo na e-volitve prijavljam na e-novice Principle ter strinjam
+                                s <a href="/zasebnost">Pravilnikom o zasebnosti</a> ter da bom v svoj e-nabiralnik občasno prejel/a sporočila in
+                                novice o Principle projektu. Ob tem se zavedam, da bo Principle pridobljene podatke hranil
+                                in procesiral na podlagi mojih odzivov in klikov na prejeta sporočila.
+                                Od e-novic se lahko kadarkoli odjavim.</label>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="col-md-5">
+                <div class="cta-text">
+                    <p>Volitve, kot <strong>temelj demokracije</strong>, omogočajo ljudstvu, da s konsenzom večine izbirajo svoje predstavnike.
+                        <strong>Konsenz večine</strong> oz. daljšega bloka je vseprisoten tudi v tehnologiji verižnih blokov in je temelj samodejnemu
+                        upravljanju omrežja, glede na strinjanje večine uporabnikov.</p>
+
+                    <p><strong>Principle protokol</strong> z uporabo konsenza na blockchainu raziskuje učinkovitejše načine potrjevanja
+                        odločitev ter reševanja sporov. Menimo, da lahko blockchain s prehodom v splošno uporabo
+                        spremeni način <strong>odločanja in sodelovanja</strong> - tudi na državni ravni.</p>
+
+                    <p>Med 28. majem in 1. junijem 2018 bodo tukaj potekale e-volitve v Državni zbor.
+                        Registriraj svoj glas in sodeluj na <strong>prvih vzporednih slovenskih volitvah na blockchainu</strong>. Volitve so testni projekt in ne veljajo kot uraden rezultat na nedeljskih volitvah. Oddaja glasu je <strong>anonimna</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="social-wrapper">
+            <div class="social-icon">
+                <a href="http://t.me/PrincipleNetwork">
+                    <img src="/assets/svg/tg.svg">
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="https://medium.com/principle">
+                    <img src="/assets/svg/me.svg">
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="https://twitter.com/PrincipleNet">
+                    <img src="/assets/svg/tw.svg">
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/PrincipleNetwork/">
+                    <img src="/assets/svg/fb.svg">
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="mailto:contact@principle.network">
+                    <img src="/assets/svg/em.svg">
+                </a>
+            </div>
+        </div>
+        <div class="colophone">
+            <div class="footer-link">
+                <a href="/pogoji">Splošni pogoji uporabe</a>
+            </div>
+            <div class="footer-link">
+                <a href="/zasebnost">Pravilnik o zasebnosti</a>
+            </div>
+            <div class="footer-link">
+                <a href="https://principle.network">Principle 2018</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="/assets/js/confirm.js"></script>
+</body>
+</html>
